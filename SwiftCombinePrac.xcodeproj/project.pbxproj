@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		08D7995C2AD61F63000371AE /* SwiftCombinePracApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D7995B2AD61F63000371AE /* SwiftCombinePracApp.swift */; };
-		08D7995E2AD61F63000371AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D7995D2AD61F63000371AE /* ContentView.swift */; };
+		08D7995E2AD61F63000371AE /* WebJokeVeiw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D7995D2AD61F63000371AE /* WebJokeVeiw.swift */; };
 		08D799602AD61F66000371AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08D7995F2AD61F66000371AE /* Assets.xcassets */; };
 		08D799632AD61F66000371AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08D799622AD61F66000371AE /* Preview Assets.xcassets */; };
 		08D7996D2AD61F66000371AE /* SwiftCombinePracTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D7996C2AD61F66000371AE /* SwiftCombinePracTests.swift */; };
@@ -38,7 +38,7 @@
 /* Begin PBXFileReference section */
 		08D799582AD61F63000371AE /* SwiftCombinePrac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCombinePrac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08D7995B2AD61F63000371AE /* SwiftCombinePracApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCombinePracApp.swift; sourceTree = "<group>"; };
-		08D7995D2AD61F63000371AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		08D7995D2AD61F63000371AE /* WebJokeVeiw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebJokeVeiw.swift; sourceTree = "<group>"; };
 		08D7995F2AD61F66000371AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08D799622AD61F66000371AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		08D799682AD61F66000371AE /* SwiftCombinePracTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftCombinePracTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,7 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				08D7995B2AD61F63000371AE /* SwiftCombinePracApp.swift */,
-				08D7995D2AD61F63000371AE /* ContentView.swift */,
+				08D7995D2AD61F63000371AE /* WebJokeVeiw.swift */,
 				08D799852AD62343000371AE /* APIModel.swift */,
 				08D799872AD629B3000371AE /* JokeViewModel.swift */,
 				08D7995F2AD61F66000371AE /* Assets.xcassets */,
@@ -263,7 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08D7995E2AD61F63000371AE /* ContentView.swift in Sources */,
+				08D7995E2AD61F63000371AE /* WebJokeVeiw.swift in Sources */,
 				08D799862AD62343000371AE /* APIModel.swift in Sources */,
 				08D7995C2AD61F63000371AE /* SwiftCombinePracApp.swift in Sources */,
 				08D799882AD629B3000371AE /* JokeViewModel.swift in Sources */,

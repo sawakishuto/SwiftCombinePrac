@@ -38,5 +38,6 @@ final class WebAPIViewModel: ObservableObject {
             }, receiveValue:{ [weak self] response in
                 self?.joke = response.joke
             })
+            .store(in: &cancellables)
     }
 }
