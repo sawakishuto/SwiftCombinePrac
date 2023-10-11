@@ -15,6 +15,7 @@
 		08D799772AD61F66000371AE /* SwiftCombinePracUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D799762AD61F66000371AE /* SwiftCombinePracUITests.swift */; };
 		08D799792AD61F66000371AE /* SwiftCombinePracUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D799782AD61F66000371AE /* SwiftCombinePracUITestsLaunchTests.swift */; };
 		08D799862AD62343000371AE /* APIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D799852AD62343000371AE /* APIModel.swift */; };
+		08D799882AD629B3000371AE /* JokeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D799872AD629B3000371AE /* JokeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		08D799762AD61F66000371AE /* SwiftCombinePracUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCombinePracUITests.swift; sourceTree = "<group>"; };
 		08D799782AD61F66000371AE /* SwiftCombinePracUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCombinePracUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		08D799852AD62343000371AE /* APIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIModel.swift; sourceTree = "<group>"; };
+		08D799872AD629B3000371AE /* JokeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				08D7995B2AD61F63000371AE /* SwiftCombinePracApp.swift */,
 				08D7995D2AD61F63000371AE /* ContentView.swift */,
 				08D799852AD62343000371AE /* APIModel.swift */,
+				08D799872AD629B3000371AE /* JokeViewModel.swift */,
 				08D7995F2AD61F66000371AE /* Assets.xcassets */,
 				08D799612AD61F66000371AE /* Preview Content */,
 			);
@@ -263,6 +266,7 @@
 				08D7995E2AD61F63000371AE /* ContentView.swift in Sources */,
 				08D799862AD62343000371AE /* APIModel.swift in Sources */,
 				08D7995C2AD61F63000371AE /* SwiftCombinePracApp.swift in Sources */,
+				08D799882AD629B3000371AE /* JokeViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
