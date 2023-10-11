@@ -8,14 +8,15 @@
 import SwiftUI
 
 struct WebJokeVeiw: View {
+    @StateObject private var viewModel = WebAPIViewModel()
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("ジョーク")
+            Text(viewModel.joke)
+            Button { viewModel.fetchJoke()} label: {
+                Text("ジョーク表示")
+            }
         }
-        .padding()
     }
     
 }
